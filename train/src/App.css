@@ -1,0 +1,72 @@
+.container {
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result-space {
+  width: 20%;
+  height: 100px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 11px 11px 0 0;
+  font-size: 30px;
+}
+
+.num-space {
+  width: 20%;
+  height: 330px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 11px 11px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 23px;
+}
+
+.btn-zero {
+  width: 110px;
+  height: 50px;
+  border-radius: 35px;
+}
+
+.btn-set {
+  background-color: #999;
+  color: #000;
+}
+
+.btn-operation {
+  background-color: rgb(245, 122, 8);
+}
+
+.numbers-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.operations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
